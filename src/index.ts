@@ -37,7 +37,7 @@ let player = await inquirer.prompt([
   {
     type: "input",
     name: "name",
-    message: "Please enter your name",
+    message: chalk.cyan.bold.underline("Please Enter Your Name:"),
   },
 ]);
 
@@ -48,7 +48,7 @@ let opponent = await inquirer.prompt([
   {
     name: "select",
     type: "list",
-    message: "Select your opponent",
+    message: chalk.cyan.bold.italic("Select your opponent"),
     choices: ["Skeleton", "Assassin", "Zombie"],
   },
 ]);
