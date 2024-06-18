@@ -1,8 +1,9 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 
-function totileCase(sentence:string):string{
-  return sentence.replace(/\b\w/g,c=>c.toUpperCase())
+function totileCase(sentence: string): string {
+  return sentence.replace(/\b\w/g, (c) => c.toUpperCase());
 }
 //* Classes and Opponent
 class Player {
@@ -42,7 +43,7 @@ let player = await inquirer.prompt([
 ]);
 
 //* Convert player's name to title case
-player.name = totileCase(player.name)
+player.name = totileCase(player.name);
 
 let opponent = await inquirer.prompt([
   {
@@ -194,4 +195,3 @@ do {
     }
   }
 } while (true);
-

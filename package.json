@@ -1,7 +1,7 @@
 {
   "name": "adventure-game-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI based adventure games using typescript and published as an executable npm package.",
   "main": "./dist/index.js",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "bin": "./dist/index.js",
   "keywords": [],
-  "author": "",
+  "author": "Muhammad Bilal Hussain",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.3.0",

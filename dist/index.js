@@ -1,7 +1,8 @@
+#!/usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
 function totileCase(sentence) {
-    return sentence.replace(/\b\w/g, c => c.toUpperCase());
+    return sentence.replace(/\b\w/g, (c) => c.toUpperCase());
 }
 //* Classes and Opponent
 class Player {
