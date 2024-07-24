@@ -8,7 +8,7 @@ Your script is a simple text-based game where a player can choose to fight again
 
 #### **Script Breakdown:**
 
-##### ***1. Imports and Helper Functions:***
+##### **1. Imports and Helper Functions:**
 
 * **`import inquirer from "inquirer"`** : For handling user prompts.
 * **`import chalk from "chalk"`** : For colored and styled terminal output.
