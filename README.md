@@ -1,4 +1,4 @@
-# Adventure-Game-CLI
+# Fuel Battle Game
 
 ### ***Introduction:***
 
@@ -23,12 +23,10 @@ Your script is a simple text-based game where a player can choose to fight again
 
 * Prompts the user to enter their name and select an opponent from a list.
 
-
 ##### **4. Game Loop**
 
 * Depending on the selected opponent, the game will enter a loop where the player can choose an action (Attack, Drink Portion, or Run for your life...).
 * Actions will affect the fuel of the player and the opponent, and the game will end if either's fuel reaches zero.
-
 
 ##### Key Points
 
